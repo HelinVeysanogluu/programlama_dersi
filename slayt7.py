@@ -42,10 +42,10 @@ MatrisiEkranaYaz(A,'A')
 
 satirtop = []
 sutuntop = []
-for j in range(len(A)):  # sütun
+for i in range(len(A)):
     top1 = 0
     top2 = 0
-    for i in range(len(A)):  # satır
+    for j in range(len(A)):
        top1 += A[i][j]
        top2 += A[j][i]
     satirtop.append(top1)
